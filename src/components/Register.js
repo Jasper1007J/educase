@@ -26,27 +26,27 @@ const Register = () => {
         <h1>Create your PopX account</h1>
       </header>
       <div class="coolinput">
-          <label for="input" class="text">Full name<a style={{color:'red'}}>*</a></label>
+          <label for="input" class="text">Full name<label style={{color:'red'}}>*</label></label>
           <input type="text" placeholder="Full Name" name="Full Name" class="input" value={name} onChange={(e)=>setName(e.target.value)} required/>
       </div>
       <div class="coolinput">
-          <label for="input" class="text">Phone number<a style={{color:'red'}}>*</a></label>
+          <label for="input" class="text">Phone number<label style={{color:'red'}}>*</label></label>
           <input type="text" placeholder="Phone Number" name="Phone Number" class="input" value={phoneNumber} onChange={(e)=>setNumber(e.target.value)} required/>
       </div>
       <div class="coolinput">
-          <label for="input" class="text">Email address<a style={{color:'red'}}>*</a></label>
+          <label for="input" class="text">Email address<label style={{color:'red'}}>*</label></label>
           <input type="email" placeholder="Email" name="Email" class="input" value={email} onChange={(e)=>setEmail(e.target.value)} required/>
       </div>
       <div class="coolinput">
-          <label for="input" class="text">Password<a style={{color:'red'}}>*</a></label>
+          <label for="input" class="text">Password<label style={{color:'red'}}>*</label></label>
           <input type="password" placeholder="Password" name="Password" class="input" value={password} onChange={(e)=>setPassword(e.target.value)} required/>
       </div>
         
         <div class="coolinput">
-          <label for="input" class="text">Company name<a style={{color:'red'}}>*</a></label>
+          <label for="input" class="text">Company name<label style={{color:'red'}}>*</label></label>
           <input type="text" placeholder="Company Name" name="Company Name" class="input" value={Company} onChange={(e)=>setCompany(e.target.value)} required/>
       </div>
-      <div className='radio-text'>Are you an Agency?<a style={{color:'red'}}>*</a></div>
+      <div className='radio-text'>Are you an Agency?<label style={{color:'red'}}>*</label></div>
       <Radio.Group onChange={onChange} value={value} >
       <Radio value={1} className='radio'>Yes</Radio>
       <Radio value={2}>No</Radio>

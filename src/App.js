@@ -7,10 +7,7 @@ import ProfileDetails from './components/ProfileDetails';
 import Register from './components/Register';
 
 export default class App extends React.Component{
-  constructor(){
-    super();
-
-}
+ 
   render(){
     
     

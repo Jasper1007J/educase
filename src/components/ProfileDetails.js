@@ -9,7 +9,7 @@ const ProfileDetails = () => {
       
       <div className='profile'>
       <div className='image'>
-      <img className='ellipse114' src={require("./Ellipse 114.jpg")} alt=''/>
+      <img className='ellipse114' src={require("./Ellipse 114.jpg")} alt='Profile'/>
       <img className='group1585' src={require("./Group 1585.jpg")}/>
       </div>
       <div className='text'>
