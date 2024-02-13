@@ -1,0 +1,77 @@
+
+
+.register-container {
+    padding: 20px;
+    background-color: #F7F8F9;
+    margin:1%;
+    /* width:23%; */
+    /* margin-left: 37%; */
+    margin-bottom: 0;
+  }
+h1{
+    font-size: 28px;
+    margin-right: 100px;
+}
+.coolinput {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    position: static;
+  }
+  
+  .coolinput label.text {
+    font-size: 0.75rem;
+    color: #6C25FF;
+    font-weight: 500;
+    position: relative;
+    top: 0.3rem;
+    margin: 0 0 0 7px;
+    padding: 0 2px;
+    background: rgb(238, 247, 255);
+    width: fit-content;
+    border-radius: 2px;
+  }
+  
+  .coolinput input.input {
+    padding: 13px 10px;
+    font-size: 0.75rem;
+    width: 170%;
+    border: 1px #CBCBCB solid;
+    border-radius: 6px;
+    background: #e8e8e800;
+    
+  }
+  
+  .coolinput input .input:focus {
+    outline: none;
+  }
+
+ 
+  
+  .create-account-button {
+    background-color: #5052de; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bolder;
+    margin: 6px 0px;
+    cursor: pointer;
+    margin-top: 8em;
+    border-radius: 6px;
+    width: 95%;
+  }
+
+  .radio-text{
+    padding-top:10px ;
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+  .radio{
+    width: 40%;
+
+  }
+

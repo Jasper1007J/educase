@@ -1,0 +1,99 @@
+.button .create-account-button {
+    background-color: #6C25FF; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bolder;
+    margin: 6px 0;
+    width: 100.5%;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  /* Style for the login button */
+  .login-button {
+    background-color: #6C25FF4B;
+    border: none;
+    font-weight: bold;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    margin: 6px 0;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .button{
+    text-decoration: none ;
+  }
+
+  /* Style for the container */
+  .container {
+    padding: 20px;
+    padding-top:25em;;
+    background-color: #F7F8F9;
+    /* margin-left: 37%; */
+    /* width: 23%; */
+    margin-bottom: 0;
+    margin-top: 1em;
+    padding-bottom: 0;
+  }
+
+  h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .para{
+    font-size: 14px;
+    margin-right: 40%;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    opacity: 0.6;
+}
+
+
+.group1585{
+    margin-left: -20px;
+    border-radius: 50%;
+
+}
+.name{
+    text-align: left;
+font: normal normal medium 15px/19px Rubik;
+color: #1D2226;
+text-transform: capitalize;
+font-weight: bold;
+}
+
+.profile{
+    display: flex;
+}
+
+.body{
+    width: 375px;
+    height: 812px;
+    margin-left: 35%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.text{
+    display: block;
+    padding-left: 20px;
+}
+
+.content{
+    margin-top: 20px;
+    left: 20px;
+    font-size: 14px;
+    width: 337px;
+    height: 63px;
+}
